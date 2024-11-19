@@ -5,7 +5,7 @@ import { HeaderButton } from 'components/HeaderButton';
 
 import { RootStackParamList } from '.';
 import TabNavigator from './tab-navigator';
-import Home from '../screens/home';
+import Home from '../src/screens/home';
 
 type Props = StackScreenProps<RootStackParamList, 'DrawerNavigator'>;
 
