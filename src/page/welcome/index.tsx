@@ -14,7 +14,7 @@ export default function Welcome({ navigation }: Props) {
       <View style={stylesWelcome.containerLogo}>
         <Animatable.Image
           animation="flipInY"
-          source={require('../../../assets/logoWelcome.png')}
+          //source={require('../../../assets/')} //logo
           style={{ width: '70%' }}
           resizeMode="contain"
         />
